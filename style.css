@@ -1,0 +1,207 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+  background-color: rgba(129, 236, 236,0.1);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container{
+  max-width:1170px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+header {
+  height: 125px;
+  background-color: #0a3d62;
+  color: white;
+  float: left; 
+  width: 100%;
+} 
+
+.header-left {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  font-size: 25px; 
+}
+
+.header-right a{
+  text-decoration : none;
+  color: #fff;
+}
+
+.logo{
+  float: left;
+}
+
+.tulisan {
+  float: left;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgba(125, 131, 207, 0.4);
+  margin-right: 10px;
+  border-radius: 20%;
+}
+
+.header-right p:hover {
+  background-color: black;
+  transition: all 1s;
+  border-radius: 5px;
+}
+
+/*Pengaturan bagian div kedua yaitu gambar animasi*/
+.top-wrapper{
+  padding: 20px 0 120px 0;
+  background-image:url(bck.jpg);
+  background-size: contain;
+}
+
+.top-wrapper h1,h2{
+  font-weight: normal;
+  opacity:0.6;
+  color:#fff;
+  text-shadow: 1px 1px #fff;
+}
+
+
+/*Mengatur ukuran gambar*/
+.image{
+  width:450px;
+  height:230px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-shadow: 1px 1px #fff;
+}
+
+.gambar{
+  display:inline-block;
+  width: 450px;
+  height:230px;
+  margin:0 auto;
+  position: relative;
+  background-image: url(pict2.jpg);
+  background-size:100%;
+  animation-name: example;
+  animation-duration: 20s;
+}
+
+
+
+@keyframes example {
+  0%   {background-image: url(pict4.jpg);}
+  20%  {background-image: url(pict2.jpg);}
+  40%  {background-image: url(pict3.jpg);}
+  60% {background-image: url(pict2.jpg);}
+  80% {background-image: url(pict4.jpg);}
+  100% {background-image: url(pict3.jpg);}
+}
+
+/*Mengatur isi*/
+.kotak-keterangan{
+  margin-bottom:80px;
+  
+}
+
+.contain{
+  padding-top:50px;
+  
+  
+}
+
+.sub-judul{
+  width:25%;
+  background-color: #079992;
+  padding-top: 5px;
+  padding-right:25px;
+  padding-left:25px;
+  padding-bottom:5px;
+  border-radius:2%;
+  
+}
+
+.sub-judul p{
+  font-size: 20px;
+  font-family: serif;
+  color:#fff;
+}
+
+.under-border{
+  border-bottom:2px solid #079992;
+}
+
+.isi{
+  padding-top:20px;
+}
+
+.isi p{
+  text-align: justify;
+  word-spacing: 3px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+
+.isi ul{
+  text-align: left;
+}
+.isi li{
+  margin-bottom:6px;
+  word-spacing: 3px;
+  letter-spacing: 0.5px;
+}
+
+.footer {
+  height: 240px;
+  padding: 50px;
+  background-color: #0a3d62;
+  color: #fff;
+  border: 4px solid #0a3d62;
+  border-radius: 10px;
+}
+
+.kedua {
+  float: left;
+  size: 36px;
+}
+.tulisanlisa {
+  padding-left: 0px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer li {
+  list-style: "☆ ";
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-left: 20px;
+  
+}
+
+
+.logo1 {
+  background-color: #0a3d62;
+  float: right;
+  position: center;
+  size: 20px;
+}
