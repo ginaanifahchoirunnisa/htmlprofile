@@ -1,0 +1,11 @@
+/*Tampilan untuk tablet*/
+@media (max-width:1000px)
+{
+  .container{
+    width: 50%;
+  }
+
+  .logo{
+    font-size:23px;
+  }
+}
